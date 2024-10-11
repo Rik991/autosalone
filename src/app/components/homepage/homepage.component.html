@@ -1,0 +1,140 @@
+<div class="row m-4 brandCard border-bottom py-5 justify-content-evenly">
+  <h2 class="text-center mb-5 fw-bold fs-1">I nostri Brand</h2>
+  <div class="col-3" *ngIf="audiArr">
+    <a [routerLink]="['/audi']">
+      <div class="card mb-3 h-100">
+        <img
+          src="{{ audiArr[0].brandLogo }}"
+          class="card-img-top img-fluid p-3"
+          alt="audi_logo"
+        />
+        <div class="card-body bg-body-tertiary">
+          <h5 class="card-title">Audi - #FutureIsAnAttitude</h5>
+          <p class="card-text">All'avanguardia della tecnica.</p>
+          <p class="card-text">
+            <small class="text-body-secondary"
+              >Vieni a provarla in concessionaria</small
+            >
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="col-3" *ngIf="fiatArr">
+    <a [routerLink]="['/fiat']">
+      <div class="card mb-3 h-100">
+        <img
+          src="{{ fiatArr[0].brandLogo }}"
+          class="card-img-top img-fluid p-3"
+          alt="fiat_logo"
+        />
+        <div class="card-body bg-body-tertiary">
+          <h5 class="card-title">
+            Fiat - #It's Only Green When It's Green for All
+          </h5>
+          <p class="card-text">La nuova Fiat appartiene a tutti noi.</p>
+          <p class="card-text">
+            <small class="text-body-secondary"
+              >Vieni a provarla in concessionaria</small
+            >
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="col-3" *ngIf="fordArr">
+    <a [routerLink]="['/ford']">
+      <div class="card mb-3 h-100">
+        <img
+          src="{{ fordArr[0].brandLogo }}"
+          class="card-img-top img-fluid p-3"
+          alt="ford_logo"
+        />
+        <div class="card-body bg-body-tertiary">
+          <h5 class="card-title">Ford - #Everything we do is driven by you</h5>
+          <p class="card-text">Hai guidato una Ford, ultimamente?</p>
+          <p class="card-text">
+            <small class="text-body-secondary"
+              >Vieni a provarla in concessionaria</small
+            >
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+<div class="row justify-content-evenly randomCarCard m-4" *ngIf="autoArr">
+  <h2 class="text-center mt-4 mb-5 fw-bold fs-1">In primo piano</h2>
+  <div class="col-4">
+    <div class="card shadow">
+      <img
+        src="{{ autoArr[randomIndex].modelImage }}"
+        class="card-img-top img-fluid"
+        alt="model-img"
+      />
+      <div class="card-body px-4">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="flex-column my-2">
+            <h3 class="card-text">
+              {{ autoArr[randomIndex].brand }}
+              {{ autoArr[randomIndex].model }}
+            </h3>
+            <p class="card-text">Prezzo: {{ autoArr[randomIndex].price }} €</p>
+          </div>
+          <button
+            [routerLink]="['/', autoArr[randomIndex].brand.toLowerCase()]"
+            class="btn btn-info px-5 rounded-5 fw-bold"
+          >
+            info
+          </button>
+        </div>
+        <li
+          class="list-group-item fw-semibold text-white text-center"
+          [ngClass]="
+            autoArr[randomIndex].available ? 'bg-success' : 'bg-danger'
+          "
+        >
+          {{
+            autoArr[randomIndex].available ? "Disponibile" : "Non disponibile"
+          }}
+        </li>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card shadow">
+      <img
+        src="{{ autoArr[randomIndex2].modelImage }}"
+        class="card-img-top img-fluid"
+        alt="model-img"
+      />
+      <div class="card-body px-4">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="flex-column my-2">
+            <h3 class="card-text">
+              {{ autoArr[randomIndex2].brand }}
+              {{ autoArr[randomIndex2].model }}
+            </h3>
+            <p class="card-text">Prezzo: {{ autoArr[randomIndex2].price }} €</p>
+          </div>
+          <button
+            [routerLink]="['/', autoArr[randomIndex2].brand.toLowerCase()]"
+            class="btn btn-info px-5 rounded-5 fw-bold"
+          >
+            info
+          </button>
+        </div>
+        <li
+          class="list-group-item fw-semibold text-white text-center"
+          [ngClass]="
+            autoArr[randomIndex2].available ? 'bg-success' : 'bg-danger'
+          "
+        >
+          {{
+            autoArr[randomIndex2].available ? "Disponibile" : "Non disponibile"
+          }}
+        </li>
+      </div>
+    </div>
+  </div>
+</div>

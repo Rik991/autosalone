@@ -1,0 +1,128 @@
+[
+  {
+    "brand": "Fiat",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/FIAT_logo_%282020%29.svg/512px-FIAT_logo_%282020%29.svg.png",
+    "model": "500L",
+    "modelImage": "https://www.federmetano.it/wp-content/uploads/2018/03/fiat-500L.jpg",
+    "year": 2015,
+    "price": 7500,
+    "available": false
+  },
+  {
+    "brand": "Fiat",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/FIAT_logo_%282020%29.svg/512px-FIAT_logo_%282020%29.svg.png",
+    "model": "500 Abarth",
+    "modelImage": "https://www.infomotori.com/content/uploads/2016/01/Abarth-500-703x415.jpg",
+    "year": 2010,
+    "price": 3500,
+    "available": true
+  },
+  {
+    "brand": "Fiat",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/FIAT_logo_%282020%29.svg/512px-FIAT_logo_%282020%29.svg.png",
+    "model": "Panda 141",
+    "modelImage": "https://www.tappetinionline.it/assets/Uploads/_resampled/ScaleWidthWyI1NDAiXQ/Panda-Type-4.JPG",
+    "year": 1991,
+    "price": 1100,
+    "available": true
+  },
+  {
+    "brand": "Fiat",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/FIAT_logo_%282020%29.svg/512px-FIAT_logo_%282020%29.svg.png",
+    "model": "Grande Punto",
+    "modelImage": "https://www.federmetano.it/wp-content/uploads/2018/01/Fiat-Grande-Punto.jpg",
+    "year": 2006,
+    "price": 3500,
+    "available": true
+  },
+  {
+    "brand": "Fiat",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/FIAT_logo_%282020%29.svg/512px-FIAT_logo_%282020%29.svg.png",
+    "model": "500 Topolino",
+    "modelImage": "https://www.fiat500nelmondo.it/wp-content/uploads/2024/07/Fiat-500-R-1972-1975-copia-1024x768.jpg",
+    "year": 1968,
+    "price": 20000,
+    "available": false
+  },
+  {
+    "brand": "Fiat",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/FIAT_logo_%282020%29.svg/512px-FIAT_logo_%282020%29.svg.png",
+    "model": "600 Elettric",
+    "modelImage": "https://statics.noleggiosemplice.it/static/images/vehicles/vehicle_first_img/1701692932869_Fiat-600-frontale.webp",
+    "year": 2024,
+    "price": 17000,
+    "available": true
+  },
+  {
+    "brand": "Fiat",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/FIAT_logo_%282020%29.svg/512px-FIAT_logo_%282020%29.svg.png",
+    "model": "Coupe' 2.0 TBZ",
+    "modelImage": "https://www.peritoautodepoca.it/wp-content/uploads/2020/12/Fiat-coup%C3%A8-2.0-846x476.jpg",
+    "year": 1994,
+    "price": 11300,
+    "available": true
+  },
+  {
+    "brand": "Fiat",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/FIAT_logo_%282020%29.svg/512px-FIAT_logo_%282020%29.svg.png",
+    "model": "Mefistofele ",
+    "modelImage": "https://www.media.stellantis.com/cache/c/8/0/8/c/c808c7260e2af09f34ebf38da0209f6ac782c54c.jpeg",
+    "year": 1924,
+    "price": 10000000,
+    "available": false
+  },
+  {
+    "brand": "Ford",
+    "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTugkBmCLF_giILpgSWeZ8t2DzdL7rNmT4s7w&s",
+    "model": "Taurus",
+    "modelImage": "https://upload.wikimedia.org/wikipedia/commons/c/c2/2010_Ford_Taurus_Limited_2_--_10-31-2009.jpg",
+    "year": 2009,
+    "price": 5200,
+    "available": false
+  },
+  {
+    "brand": "Ford",
+    "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTugkBmCLF_giILpgSWeZ8t2DzdL7rNmT4s7w&s",
+    "model": "Focus",
+    "modelImage": "https://statics.quattroruote.it/content/dam/quattroruote/it/gallery/2014/02/24/ford_focus/gallery/rsmall/2014-ford-focus-17.jpg",
+    "year": 2014,
+    "price": 9700,
+    "available": true
+  },
+  {
+    "brand": "Ford",
+    "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTugkBmCLF_giILpgSWeZ8t2DzdL7rNmT4s7w&s",
+    "model": "Fiesta",
+    "modelImage": "https://www.motori360.it/wp-content/uploads/2012/11/ford-fiesta-restyling-2013-1.jpg",
+    "year": 2013,
+    "price": 6500,
+    "available": true
+  },
+  {
+    "brand": "Audi",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Audi_logo_detail.svg/1426px-Audi_logo_detail.svg.png",
+    "model": "A3",
+    "modelImage": "https://cars.usnews.com/static/images/Auto/izmo/334123/2012_audi_a3_angularfront.jpg",
+    "year": 2012,
+    "price": 4300,
+    "available": true
+  },
+  {
+    "brand": "Audi",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Audi_logo_detail.svg/1426px-Audi_logo_detail.svg.png",
+    "model": "Q7",
+    "modelImage": "https://media.ed.edmunds-media.com/audi/q7/2020/oem/2020_audi_q7_4dr-suv_prestige-55-tfsi-quattro_fq_oem_1_1600.jpg",
+    "year": 2020,
+    "price": 41700,
+    "available": false
+  },
+  {
+    "brand": "Audi",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Audi_logo_detail.svg/1426px-Audi_logo_detail.svg.png",
+    "model": "R8",
+    "modelImage": "https://www.reportmotori.it/wp-content/uploads/2020/07/Audi-R8-2020-Limited-Edition-1.jpg",
+    "year": 2022,
+    "price": 190000,
+    "available": false
+  }
+]

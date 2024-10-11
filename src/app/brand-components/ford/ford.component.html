@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row">
+    <h2 class="text-center m-5 fs-1">Le nostre FORD</h2>
+    <div class="col-3" *ngFor="let ford of fordArr">
+      <div class="card shadow h-100">
+        <img
+          src="{{ ford.modelImage }}"
+          class="card-img-top"
+          alt="..."
+          height="200px"
+        />
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item fw-semibold">
+              Modello: {{ ford.model }}
+            </li>
+            <li class="list-group-item">Anno: {{ ford.year }}</li>
+            <li class="list-group-item">Prezzo: {{ ford.price }} €</li>
+            <li
+              class="list-group-item fw-semibold text-white"
+              [ngClass]="ford.available ? 'bg-success' : 'bg-danger'"
+            >
+              Disponibilità:
+              {{ ford.available ? "Disponibile" : "Non disponibile" }}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
