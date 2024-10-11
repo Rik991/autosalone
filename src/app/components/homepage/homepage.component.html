@@ -1,6 +1,9 @@
 <div class="row m-4 brandCard border-bottom py-5 justify-content-evenly">
-  <h2 class="text-center mb-5 fw-bold fs-1">I nostri Brand</h2>
-  <div class="col-3" *ngIf="audiArr">
+  <h2 class="text-center mb-5 fw-bold fs-1">
+    La nostra scuderia di brand
+    <h4>Le icone dell'automobile, selezionate per te</h4>
+  </h2>
+  <div class="col-10 col-md-8 col-lg-3 mb-3" *ngIf="audiArr">
     <a [routerLink]="['/audi']">
       <div class="card mb-3 h-100">
         <img
@@ -20,7 +23,7 @@
       </div>
     </a>
   </div>
-  <div class="col-3" *ngIf="fiatArr">
+  <div class="col-10 col-md-8 col-lg-3 mb-3" *ngIf="fiatArr">
     <a [routerLink]="['/fiat']">
       <div class="card mb-3 h-100">
         <img
@@ -42,7 +45,7 @@
       </div>
     </a>
   </div>
-  <div class="col-3" *ngIf="fordArr">
+  <div class="col-10 col-md-8 col-lg-3 mb-3" *ngIf="fordArr">
     <a [routerLink]="['/ford']">
       <div class="card mb-3 h-100">
         <img
@@ -63,9 +66,9 @@
     </a>
   </div>
 </div>
-<div class="row justify-content-evenly randomCarCard m-4" *ngIf="autoArr">
+<div class="row justify-content-center randomCarCard m-4" *ngIf="autoArr">
   <h2 class="text-center mt-4 mb-5 fw-bold fs-1">In primo piano</h2>
-  <div class="col-4">
+  <div class="col-12 col-lg-5 mb-3">
     <div class="card shadow">
       <img
         src="{{ autoArr[randomIndex].modelImage }}"
@@ -79,7 +82,9 @@
               {{ autoArr[randomIndex].brand }}
               {{ autoArr[randomIndex].model }}
             </h3>
-            <p class="card-text">Prezzo: {{ autoArr[randomIndex].price }} €</p>
+            <p class="card-text">
+              Prezzo: {{ autoArr[randomIndex].price | currency : "EUR" }}
+            </p>
           </div>
           <button
             [routerLink]="['/', autoArr[randomIndex].brand.toLowerCase()]"
@@ -101,7 +106,7 @@
       </div>
     </div>
   </div>
-  <div class="col-4">
+  <div class="col-12 col-lg-5">
     <div class="card shadow">
       <img
         src="{{ autoArr[randomIndex2].modelImage }}"
@@ -115,7 +120,9 @@
               {{ autoArr[randomIndex2].brand }}
               {{ autoArr[randomIndex2].model }}
             </h3>
-            <p class="card-text">Prezzo: {{ autoArr[randomIndex2].price }} €</p>
+            <p class="card-text">
+              Prezzo: {{ autoArr[randomIndex2].price | currency : "EUR" }}
+            </p>
           </div>
           <button
             [routerLink]="['/', autoArr[randomIndex2].brand.toLowerCase()]"

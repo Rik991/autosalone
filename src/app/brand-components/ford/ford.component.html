@@ -1,7 +1,10 @@
 <div class="container">
   <div class="row">
     <h2 class="text-center m-5 fs-1">Le nostre FORD</h2>
-    <div class="col-3" *ngFor="let ford of fordArr">
+    <div
+      class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3"
+      *ngFor="let ford of fordArr"
+    >
       <div class="card shadow h-100">
         <img
           src="{{ ford.modelImage }}"
@@ -15,7 +18,9 @@
               Modello: {{ ford.model }}
             </li>
             <li class="list-group-item">Anno: {{ ford.year }}</li>
-            <li class="list-group-item">Prezzo: {{ ford.price }} €</li>
+            <li class="list-group-item">
+              Prezzo: {{ ford.price | currency : "EUR" }}
+            </li>
             <li
               class="list-group-item fw-semibold text-white"
               [ngClass]="ford.available ? 'bg-success' : 'bg-danger'"

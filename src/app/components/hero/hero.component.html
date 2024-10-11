@@ -1,11 +1,15 @@
-<div class="row justify-content-between bg-body-secondary">
-  <div class="col-10 col-md-4 m-auto">
-    <h1 class="fw-bold">Benvenuto in Venus Car</h1>
-    <h2 class="fst-italic">Scopri l'auto dei tuoi sogni!</h2>
-    <h5>Un assortimento esclusivo di veicoli per ogni esigenza.</h5>
-    <h6>Scopri la nostra selezione di auto pensate per ogni stile di vita.</h6>
+<ng-container>
+  <div class="row justify-content-between bg-body-secondary">
+    <div class="col-12 col-md-10 col-lg-4 m-auto px-sm-5">
+      <h1 class="fw-bold">Benvenuto in Venus Car</h1>
+      <h2 class="fst-italic">Scopri l'auto dei tuoi sogni!</h2>
+      <h5>Un assortimento esclusivo di veicoli per ogni esigenza.</h5>
+      <h6>
+        Scopri la nostra selezione di auto pensate per ogni stile di vita.
+      </h6>
+    </div>
+    <div class="col-6 d-none d-lg-block">
+      <img [src]="changeImage()" alt="Car Image" class="img-fluid" />
+    </div>
   </div>
-  <div class="col-6 d-none d-md-block">
-    <img [src]="changeImage()" alt="Car Image" class="img-fluid" />
-  </div>
-</div>
+</ng-container>

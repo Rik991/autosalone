@@ -17,23 +17,26 @@
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
       </li>
-      <li class="nav-item dropdown">
+      <li class="nav-item dropdown" [class.show]="isDropdownOpen">
         <a
           class="nav-link dropdown-toggle"
-          href="#"
-          id="navbarDropdown"
           role="button"
-          data-toggle="dropdown"
+          (click)="openDropdown()"
           aria-haspopup="true"
-          aria-expanded="false"
+          [attr.aria-expanded]="isDropdownOpen"
         >
           Le nostre auto
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Fiat</a>
-          <a class="dropdown-item" href="#">Ford</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Audi</a>
+        <div class="dropdown-menu bg-dark" [class.show]="isDropdownOpen">
+          <a class="dropdown-item bg-dark text-light" [routerLink]="['/audi']"
+            >Audi</a
+          >
+          <a class="dropdown-item bg-dark text-light" [routerLink]="['/fiat']"
+            >Fiat</a
+          >
+          <a class="dropdown-item bg-dark text-light" [routerLink]="['/ford']"
+            >Ford</a
+          >
         </div>
       </li>
     </ul>

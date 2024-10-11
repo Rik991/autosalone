@@ -74,15 +74,6 @@
   {
     "brand": "Ford",
     "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTugkBmCLF_giILpgSWeZ8t2DzdL7rNmT4s7w&s",
-    "model": "Taurus",
-    "modelImage": "https://upload.wikimedia.org/wikipedia/commons/c/c2/2010_Ford_Taurus_Limited_2_--_10-31-2009.jpg",
-    "year": 2009,
-    "price": 5200,
-    "available": false
-  },
-  {
-    "brand": "Ford",
-    "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTugkBmCLF_giILpgSWeZ8t2DzdL7rNmT4s7w&s",
     "model": "Focus",
     "modelImage": "https://statics.quattroruote.it/content/dam/quattroruote/it/gallery/2014/02/24/ford_focus/gallery/rsmall/2014-ford-focus-17.jpg",
     "year": 2014,
@@ -99,6 +90,60 @@
     "available": true
   },
   {
+    "brand": "Ford",
+    "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTugkBmCLF_giILpgSWeZ8t2DzdL7rNmT4s7w&s",
+    "model": "Mustang GT Fastback",
+    "modelImage": "https://build.ford.com/dig/Ford/Mustang/2024/HD-TILE/Image%5B%7CFord%7CMustang%7C2024%7C1%7C1.%7C300A.P8C..PHY..88D.89W.~2WD00_BCMAB.AC--C.13R.COU.BSHEH.BYBBR.CJPAA.LTS.51W.64T.TA6.RWD.45D.99F.FS--A.HLLAD.58V.IDBAD.SY4.44X.GT.YZTAB.CLO.%5D/EXT/1/vehicle.png",
+    "year": 2018,
+    "price": 35000,
+    "available": true
+  },
+  {
+    "brand": "Ford",
+    "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTugkBmCLF_giILpgSWeZ8t2DzdL7rNmT4s7w&s",
+    "model": "Ranger Raptor 3.0 ",
+    "modelImage": "https://cdn.drivek.com/configurator-imgs/trucks/it/800/FORD/RANGER-RAPTOR/8500_DOUBLE-CAB-PICK-UP/ford-ranger-raptor-22-front-view.jpg",
+    "year": 2013,
+    "price": 39000,
+    "available": false
+  },
+  {
+    "brand": "Ford",
+    "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTugkBmCLF_giILpgSWeZ8t2DzdL7rNmT4s7w&s",
+    "model": "Transit Connect",
+    "modelImage": "https://cdn.wheel-size.com/automobile/body/ford-transit-connect-2002-2009-1604646506.6616132.jpg",
+    "year": 2004,
+    "price": 5000,
+    "available": true
+  },
+  {
+    "brand": "Ford",
+    "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTugkBmCLF_giILpgSWeZ8t2DzdL7rNmT4s7w&s",
+    "model": "Focus",
+    "modelImage": "https://www.gpas-cache.ford.com/guid/08db13f3-ffdb-3ca4-ba33-e084e5a002ab.png",
+    "year": 2021,
+    "price": 25000,
+    "available": true
+  },
+  {
+    "brand": "Ford",
+    "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTugkBmCLF_giILpgSWeZ8t2DzdL7rNmT4s7w&s",
+    "model": "Puma",
+    "modelImage": "https://www.gpas-cache.ford.com/guid/3f87c873-5b1c-337d-94b3-0deb0b6347ce.png",
+    "year": 2016,
+    "price": 17000,
+    "available": true
+  },
+  {
+    "brand": "Ford",
+    "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTugkBmCLF_giILpgSWeZ8t2DzdL7rNmT4s7w&s",
+    "model": "Explorer",
+    "modelImage": "https://hd2.tudocdn.net/1087282?w=824&h=494",
+    "year": 2024,
+    "price": 31500,
+    "available": false
+  },
+  {
     "brand": "Audi",
     "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Audi_logo_detail.svg/1426px-Audi_logo_detail.svg.png",
     "model": "A3",
@@ -111,7 +156,7 @@
     "brand": "Audi",
     "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Audi_logo_detail.svg/1426px-Audi_logo_detail.svg.png",
     "model": "Q7",
-    "modelImage": "https://media.ed.edmunds-media.com/audi/q7/2020/oem/2020_audi_q7_4dr-suv_prestige-55-tfsi-quattro_fq_oem_1_1600.jpg",
+    "modelImage": "https://cdn.wheel-size.com/automobile/body/audi-q7-2019-2024-1716201187.9541745.jpg",
     "year": 2020,
     "price": 41700,
     "available": false
@@ -124,5 +169,50 @@
     "year": 2022,
     "price": 190000,
     "available": false
+  },
+  {
+    "brand": "Audi",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Audi_logo_detail.svg/1426px-Audi_logo_detail.svg.png",
+    "model": "Q6 E-Tron",
+    "modelImage": "https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grTxNXu7uebK4Wa8-m020r5pvtvP7wIwMrUBfjIiDBzAYk-MKBBKcnA5gEmXcARASA-Ey2zAwMrBVARiQDCPDxlRblFCQWJebqlWemlGQIahgQCYTZXVxDHD19ggFVylB_6QAAAA?wid=850",
+    "year": 2024,
+    "price": 46500,
+    "available": true
+  },
+  {
+    "brand": "Audi",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Audi_logo_detail.svg/1426px-Audi_logo_detail.svg.png",
+    "model": "RS 3 Sedan",
+    "modelImage": "https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCElzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grz-Nc5S63vV0XlLU_tHZ3d7lN-J3Gz8AK1MV4A0gwTwMSfAVAglOaAUyCzDsAIppAfCZ7ZgYG1gogI5IBBAQ1DIgEwuwuriGOnj7BAFByan3ZAAAA",
+    "year": 2023,
+    "price": 25000,
+    "available": true
+  },
+  {
+    "brand": "Audi",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Audi_logo_detail.svg/1426px-Audi_logo_detail.svg.png",
+    "model": "A4 Avant",
+    "modelImage": "https://mediaservice.audi.com/media/cdb/data/0fe14b03-c6af-4984-b7b6-2c0010edee11.jpg",
+    "year": 2019,
+    "price": 32000,
+    "available": true
+  },
+  {
+    "brand": "Audi",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Audi_logo_detail.svg/1426px-Audi_logo_detail.svg.png",
+    "model": "A5 (8T)",
+    "modelImage": "https://www.motortrend.com/uploads/sites/10/2015/11/2012-audi-a5-2.0-t-quattro-tiptronic-premium-coupe-angular-front.png",
+    "year": 2013,
+    "price": 16000,
+    "available": false
+  },
+  {
+    "brand": "Audi",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Audi_logo_detail.svg/1426px-Audi_logo_detail.svg.png",
+    "model": "TT RS",
+    "modelImage": "https://cdn.wheel-size.com/automobile/body/audi-tt-rs-2019-2023-1716277224.3586686.jpg",
+    "year": 2020,
+    "price": 51000,
+    "available": true
   }
 ]
